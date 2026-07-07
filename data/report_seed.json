@@ -1,0 +1,118 @@
+{
+  "project": {
+    "name": "江苏流域胃动力药Q3项目",
+    "manager": "张三",
+    "region": "江苏",
+    "period": "2026年Q3",
+    "budget": 50,
+    "repCount": 3,
+    "repCost": 1.5,
+    "academicBudget": 10
+  },
+  "products": [
+    {
+      "id": "p1",
+      "name": "科赴 吗丁啉42s",
+      "spec": "10mg×42片/盒",
+      "category": "胃动力药",
+      "supplyPrice": 23.5,
+      "retail": 30.0,
+      "margin": "27.7%",
+      "insurance": "医保乙类",
+      "procurement": "非集采",
+      "monthlyVol": 13200,
+      "summary": "月均 13,200 盒，南京/苏州占 55%，非集采+医保乙类，毛利 27.7%"
+    },
+    {
+      "id": "p2",
+      "name": "奥美拉唑肠溶胶囊",
+      "spec": "20mg×14粒/盒",
+      "category": "PPI 抑酸药",
+      "supplyPrice": 18.0,
+      "retail": 25.0,
+      "margin": "36.0%",
+      "insurance": "医保乙类",
+      "procurement": "非集采",
+      "monthlyVol": 8400,
+      "summary": "月均 8,400 盒，PPI 成熟市场，毛利 36%"
+    },
+    {
+      "id": "p3",
+      "name": "雷贝拉唑钠肠溶片",
+      "spec": "10mg×7片/盒",
+      "category": "PPI 抑酸药",
+      "supplyPrice": 22.0,
+      "retail": 28.0,
+      "margin": "28.6%",
+      "insurance": "医保乙类",
+      "procurement": "非集采",
+      "monthlyVol": 3200,
+      "summary": "新一代 PPI，增长快，需强化学术推广"
+    },
+    {
+      "id": "p4",
+      "name": "复方消化酶胶囊",
+      "spec": "24粒/盒",
+      "category": "消化酶制剂",
+      "supplyPrice": 15.0,
+      "retail": 22.0,
+      "margin": "31.8%",
+      "insurance": "医保乙类",
+      "procurement": "非集采",
+      "monthlyVol": 2100,
+      "summary": "与吗丁啉联合用药方案成熟，增长 +12%"
+    },
+    {
+      "id": "p5",
+      "name": "铝碳酸镁咀嚼片",
+      "spec": "500mg×20片/盒",
+      "category": "黏膜保护剂",
+      "supplyPrice": 12.0,
+      "retail": 16.0,
+      "margin": "33.3%",
+      "insurance": "医保乙类",
+      "procurement": "非集采",
+      "monthlyVol": 1200,
+      "summary": "联合用药补充品种，适合数字化长尾推广"
+    },
+    {
+      "id": "p6",
+      "name": "莫沙必利分散片",
+      "spec": "5mg×24片/盒",
+      "category": "胃动力药",
+      "supplyPrice": 24.0,
+      "retail": 32.0,
+      "margin": "25.0%",
+      "insurance": "医保乙类",
+      "procurement": "部分集采",
+      "monthlyVol": 1800,
+      "summary": "部分集采，价格体系受冲击"
+    },
+    {
+      "id": "p7",
+      "name": "伊托必利片",
+      "spec": "50mg×20片/盒",
+      "category": "胃动力药",
+      "supplyPrice": 21.0,
+      "retail": 28.0,
+      "margin": "25.0%",
+      "insurance": "医保乙类",
+      "procurement": "非集采",
+      "monthlyVol": 1500,
+      "summary": "未集采，竞争相对温和"
+    },
+    {
+      "id": "p8",
+      "name": "西沙必利片",
+      "spec": "5mg×20片/盒",
+      "category": "胃动力药",
+      "supplyPrice": 20.0,
+      "retail": 35.0,
+      "margin": "42.9%",
+      "insurance": "医保乙类",
+      "procurement": "非集采",
+      "monthlyVol": 600,
+      "summary": "市场萎缩，排他条款风险高"
+    }
+  ]
+}

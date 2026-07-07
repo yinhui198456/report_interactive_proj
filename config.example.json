@@ -1,0 +1,9 @@
+{
+  "data_source": "seed",
+  "neo4j": {
+    "uri": "bolt://localhost:7687",
+    "user": "neo4j",
+    "password": "change-me",
+    "database": "neo4j"
+  }
+}

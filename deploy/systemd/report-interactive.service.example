@@ -1,0 +1,22 @@
+[Unit]
+Description=商销项目决策报告 Web 服务
+After=network.target
+
+[Service]
+Type=simple
+# 请按实际运行用户/组修改
+User=agent
+Group=agent
+
+WorkingDirectory=/opt/personal-agent-workspace/report_interactive_proj
+ExecStart=/opt/personal-agent-workspace/report_interactive_proj/run.sh
+
+Environment=PORT=8010
+# 如需指定监听地址，可取消下行注释
+# Environment=HOST=127.0.0.1
+
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
